@@ -1,0 +1,9 @@
+variable "project_name" { type = string }
+variable "region_name" { type = string }
+variable "zone_name" { type = string }
+variable "machine_size" { type = string }
+variable "image_name" { type = string }
+variable "script_path" { type = string }
+variable "private_key_path" { type = string }
+variable "public_key_path" { type = string }
+variable "username" { type = string } 
